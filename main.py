@@ -18,7 +18,7 @@ parser.add_argument('-f', default='', type=str)
 
 # Model selection
 parser.add_argument('--model', type=str, default='BCPMJRS',
-                    help='name of the model to use (MulT, BCPMJRS)')
+                    help='name of the model to use BCPMJRS')
 
 # Tasks
 parser.add_argument('--vonly', action='store_true',
